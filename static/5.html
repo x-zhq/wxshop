@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-touch-fullscreen" content="yes"  />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no">
+		<title></title>
+		<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" href="aaa/css/tpl-style.css">
+		<link rel="stylesheet" href="aaa/css/dialog.css">
+		<style type="text/css">
+				.button { padding: 0 15px; cursor: pointer; margin-right: 15px; background: #f6f7fb; border: 1px solid #c7ced2; border-radius: 2px; color: #191d24; display: inline-block; height: 40px; line-height: 40px; text-align: center; outline:none; font-family: "Microsoft Yahei"; }
+				.button:hover { background-color: #f2f2f2; }
+				.tpl-wrapper{margin-top: 20px;}
+				a{border-bottom: none;color:#2fa0cc;}
+				</style>
+	</head>
+	
+	
+	<body>
+		
+		<div class="container" style="margin-top: 10px;">
+			<div class="col-xs-6">
+				<img src="images/2.jpg" class="img-responsive" />
+			</div>
+			<div class="col-xs-6">
+				<p>
+					这是一些示例文本。
+					这是一些示例文本。
+					这是一些示例文本。
+				</p>
+				<button class="btn btn-default">来一发</button>
+			</div>
+			
+			<div class="col-xs-6">
+				<img src="images/2.jpg" class="img-responsive" />
+			</div>
+			<div class="col-xs-6">
+				<p>
+					这是一些示例文本。
+					这是一些示例文本。
+					这是一些示例文本。
+				</p>
+				<button class="btn btn-primary">来一发</button>
+			</div>
+			
+			<div class="col-xs-6">
+				<img src="images/2.jpg" class="img-responsive" />
+			</div>
+			<div class="col-xs-6">
+				<p>
+					这是一些示例文本。
+					这是一些示例文本。
+					这是一些示例文本。
+				</p>
+				<button class="btn btn-primary">来一发</button>
+			</div>
+			
+			
+			<div class="col-xs-6">
+				<img src="images/2.jpg" class="img-responsive" />
+			</div>
+			<div class="col-xs-6">
+				<p>
+					这是一些示例文本。
+					这是一些示例文本。
+					这是一些示例文本。
+				</p>
+				<button class="btn btn-primary">来一发</button>
+			</div>
+		</div>
+		
+		
+		<div class="example-item">
+				<h3 class="example-name">Comfirm 类型</h3>
+				<div class="example-show">
+					<button id="btn-05" class="button" type="button">确定/取消</button>
+		</div>
+		
+		<script type="text/javascript">
+			$('#btn-05').click(function(){
+			$.dialog({
+			type : 'confirm',
+			contentHtml : '&ltp&gt我是confirm类型的对话框。&lt/p&gt &ltp&gt我只是用来占位的内容展示，仅仅用来占位撑起提示内容的高度。我只是用来占位的内容展示，仅仅用来占位撑起提示内容的高度。&lt/p&gt'
+			});
+			});
+		</script>
+			
+		
+		
+			
+		
+	</body>
+	
+	<script src="aaa/js/zepto.min.js"></script>
+	<script src="aaa/js/dialog.js"></script>
+	<script src="aaa/js/example.js"></script>
+		
+	
+</html>
